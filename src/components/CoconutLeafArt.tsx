@@ -101,21 +101,21 @@ export const CoconutLeafArt: React.FC<CoconutLeafArtProps> = ({ onSelectForEnqui
               </div>
             </div>
 
-            {/* Supporting Image 2: Woven Tapestry Panel */}
+            {/* Supporting Image 2: Woven Peacock Stage Installation */}
             <div className="rounded-xl overflow-hidden bg-forest-900 border border-gold-500/30 shadow-lg group">
-              <div className="relative aspect-[16/9] overflow-hidden">
+              <div className="relative aspect-[16/10] overflow-hidden">
                 <img
-                  src="/images/coconut-leaf-art/stage-panel.svg"
-                  alt="Woven Coconut Leaf Stage Tapestry"
+                  src="/images/coconut-leaf-art/coconut-peacock-stage.jpg"
+                  alt="Woven Coconut Leaf Stage with Life-Sized Leaf Peacocks"
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-forest-950/90 via-transparent to-transparent"></div>
                 <div className="absolute bottom-3 left-4 right-4">
                   <span className="text-xs font-serif font-bold text-ivory-100 block">
-                    Geometric Leaf Tapestry Panel
+                    Woven Leaf Stage &amp; Sculpted Peacocks
                   </span>
                   <span className="text-[10px] text-gold-400 font-sans">
-                    Diamond-weave decorative backdrop for stage ceremonies
+                    Twin life-sized leaf peacocks and woven tapestry backdrop
                   </span>
                 </div>
               </div>

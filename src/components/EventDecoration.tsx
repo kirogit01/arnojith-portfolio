@@ -9,22 +9,28 @@ interface EventDecorationProps {
 export const EventDecoration: React.FC<EventDecorationProps> = ({ onSelectForEnquiry }) => {
   const eventTypes = [
     {
-      title: "Stage & Ceremonial Backdrops",
-      desc: "Fabric draping, floral frames, and atmospheric lighting styled to create an unforgettable focal center.",
-      image: "/images/event-decoration/stage-decor.svg",
-      tag: "Stage Architecture",
+      title: "Themed Birthday Party Stage Styling",
+      desc: "Custom pastel balloon garland arches, floral butterfly accents, cylindrical name pedestals, and ambient drapery for special family celebrations.",
+      image: "/images/event-decoration/birthday-balloon-decor.jpg",
+      tag: "Celebration Stage",
     },
     {
-      title: "Welcome Foyers & Entrance Architecture",
-      desc: "Warm arrival walkways featuring decorative pedestals, natural foliage, and bespoke welcome greeting displays.",
-      image: "/images/event-decoration/welcome-foyer.svg",
-      tag: "Walkway Styling",
+      title: "Grand Cultural Festival Entrance Gateways",
+      desc: "Monumental cultural gateways combining traditional character silhouettes, chariot wheels, archway Tamil lettering, and vibrant on-site builds.",
+      image: "/images/event-decoration/cultural-gateway-festival.jpg",
+      tag: "Gateway Architecture",
     },
     {
-      title: "Cultural Festivals & School Functions",
-      desc: "Thematic environments combining traditional cultural motifs with disciplined spatial arrangement for institutions.",
-      image: "/images/coconut-leaf-art/sports-meet.svg",
-      tag: "Institutional Functions",
+      title: "Sculptural Peacock Parade Floats",
+      desc: "Handcrafted 3D sculpted peacock figure with circular hand-painted feather plume mounted for annual school walks and celebration parades.",
+      image: "/images/event-decoration/peacock-parade-float.jpg",
+      tag: "Parade & Sculpture",
+    },
+    {
+      title: "Michaelites Hike Walk Dragon Float",
+      desc: "Gigantic theatrical 3D red dragon head sculpture with flame whiskers and side-panel dragon murals built on parade vehicle trucks.",
+      image: "/images/event-decoration/dragon-parade-float.jpg",
+      tag: "Carnival Installation",
     },
   ];
 
@@ -37,13 +43,13 @@ export const EventDecoration: React.FC<EventDecorationProps> = ({ onSelectForEnq
           eyebrow="Atmospheric Styling"
           title="Beautiful Events. Memorable Experiences."
           subtitle="Spatial Harmony · Floral Accents · Cultural Elegance"
-          description="Thoughtfully designed decorative spaces that bring celebrations, gatherings, and special occasions to life through balanced compositions, fabric drapery, and natural elements."
+          description="Thoughtfully designed decorative spaces that bring celebrations, gatherings, and special occasions to life through balanced compositions, balloon artistry, parade floats, and cultural entrance gateways."
           theme="light"
           align="center"
         />
 
         {/* Event Showcase Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
           {eventTypes.map((item, idx) => (
             <div
               key={idx}

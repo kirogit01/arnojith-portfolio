@@ -62,60 +62,101 @@ export const portfolioProjects: PortfolioProject[] = [
     materials: ["Palm Fronds", "Areca Nut Tree Poles", "Botanical Flower Accents"]
   },
   {
-    id: "cultural-backdrop-panel",
-    title: "Woven Floral Stage Backdrop Panel",
+    id: "coconut-peacock-stage",
+    title: "Traditional Coconut Leaf Stage & Peacock Art Installation",
     category: "Coconut Leaf Art",
-    tagline: "Intricate Geometric Leaf Tapestry",
-    description: "Detailed stage backdrop screen crafted from tightly interwoven coconut leaf ribbons, forming diamond geometry and botanical rosettes for stage ceremonies.",
-    image: "/images/coconut-leaf-art/stage-panel.svg",
-    altText: "Artistic woven coconut palm backdrop tapestry for cultural events",
-    aspectRatio: "square",
+    tagline: "Masterpiece Woven Backdrop & Sculpted Leaf Peacocks",
+    description: "Spectacular ceremonial stage backdrop constructed entirely from fresh woven coconut leaves. Features two magnificent sculptural peacocks with cascading leaf-folded feathers, twin towering Gokku Kalasams with natural coconut blossoms, and a central sunburst chakra.",
+    image: "/images/coconut-leaf-art/coconut-peacock-stage.jpg",
+    altText: "Grand stage backdrop woven with coconut leaves featuring two leaf peacocks and kalasam pillars",
+    aspectRatio: "landscape",
     projectType: "Cultural Installation",
-    location: "Cultural Hall, Sri Lanka",
+    location: "Ceremonial Stage, Sri Lanka",
     highlights: [
-      "Geometric diamond-weave pattern",
-      "Integrated natural jasmine and marigold pinpoints",
-      "Soft natural fragrance and eco-aesthetic"
+      "Dual life-sized peacocks crafted entirely from folded coconut fronds",
+      "Seamless geometric woven coconut leaf wall tapestry",
+      "Twin multi-tiered Gokku Kalasam structures with natural coconut flowers",
+      "Traditional ceremonial stage backdrop for cultural events"
     ],
-    materials: ["Coconut Fronds", "Fresh Marigold", "Eco Threading"]
+    materials: ["Fresh Coconut Fronds", "Coconut Flowers (Thempookkal)", "Eco Framing"]
   },
 
   // Event Decoration
   {
-    id: "ceremonial-stage-decor",
-    title: "Ceremonial Stage & Floral Backdrop",
+    id: "birthday-balloon-stage-decor",
+    title: "Fairy & Butterfly Themed Birthday Party Stage Styling",
     category: "Event Decoration",
-    tagline: "Harmonious Lighting & Fabric Architecture",
-    description: "Custom stage decoration blending flowing warm fabric drapery with structured floral arches and ambient warm illumination for a formal ceremony.",
-    image: "/images/event-decoration/stage-decor.svg",
-    altText: "Elegantly styled event stage with draped ivory fabrics and floral accents",
-    aspectRatio: "landscape",
-    projectType: "Completed Work",
-    location: "Event Pavilion, Sri Lanka",
-    highlights: [
-      "Layered ivory and gold fabric drapery",
-      "Focal floral wreath installation",
-      "Warm atmospheric uplighting"
-    ],
-    materials: ["Ivory Georgette Fabric", "Fresh Flora", "LED Spotlights"]
-  },
-  {
-    id: "reception-welcome-foyer",
-    title: "Event Welcome Foyer Installation",
-    category: "Event Decoration",
-    tagline: "Welcoming Spatial Aesthetics",
-    description: "Aesthetic entrance walkway featuring handcrafted wooden pedestals, fresh botanical garlands, and customized typographic welcome easel.",
-    image: "/images/event-decoration/welcome-foyer.svg",
-    altText: "Event entrance walkway with botanical pedestals and warm welcome signage",
+    tagline: "Curated Themed Stage & Balloon Architecture",
+    description: "Complete celebratory party stage decoration featuring a pastel balloon garland arch with butterfly accents, custom cylindrical dessert pedestals with Tamil typography, fairy cutouts, and elegant backdrop drapery.",
+    image: "/images/event-decoration/birthday-balloon-decor.jpg",
+    altText: "Birthday party stage decoration with balloon arch, fairy cutouts, and custom cylinder pedestals",
     aspectRatio: "portrait",
     projectType: "Completed Work",
-    location: "Banquet Hall, Sri Lanka",
+    location: "Event Hall, Sri Lanka",
     highlights: [
-      "Cohesive botanical color palette",
-      "Custom graphic greeting typography",
-      "Warm candlelit lantern accents"
+      "Organic multi-size balloon arch (purple, pink, white, gold butterflies)",
+      "Custom printed Tamil name cylinder pedestals",
+      "Handcrafted fairy character cutouts",
+      "Warm drape curtain background with ambient lighting"
     ],
-    materials: ["Timber Pedestals", "Brass Lanterns", "Botanical Foliage"]
+    materials: ["Balloon Arches", "Custom Print Pedestals", "Fabric Drapery"]
+  },
+  {
+    id: "cultural-festival-gateway-architecture",
+    title: "Grand Cultural Festival Entrance Gateway Architecture",
+    category: "Event Decoration",
+    tagline: "Handcrafted Ceremonial Gateway ('குறிஞ்சிக்கரங்கள்')",
+    description: "Monumental cultural festival entrance gateway ('குறிஞ்சிக்கரங்கள்') designed and assembled on-site. Combines traditional character cutouts, symbolic chariot wheels, archway lettering, and vibrant ceremonial color blocking.",
+    image: "/images/event-decoration/cultural-gateway-festival.jpg",
+    altText: "Monumental cultural festival entrance arch with traditional cutouts and chariot wheels",
+    aspectRatio: "portrait",
+    projectType: "Completed Work",
+    location: "Cultural Festival, Sri Lanka",
+    highlights: [
+      "Custom timber and board cutouts crafted in the workshop",
+      "Traditional chariot wheels and archway Tamil typography",
+      "Multi-pillar cultural color staging",
+      "Sturdy weather-resistant on-site structural build"
+    ],
+    materials: ["Timber Structure", "Plywood Cutouts", "Enamel Paint", "Chariot Wheels"]
+  },
+  {
+    id: "peacock-parade-float-sculpture",
+    title: "Grand Peacock Vehicle Float & Festival Sculpture",
+    category: "Event Decoration",
+    tagline: "Large-Scale Cultural Parade Float Installation",
+    description: "Impressive 3D sculptural peacock float built for an annual school walk and celebration ('2005 Batch'). Features a massive hand-sculpted peacock neck and head framed by an expansive circular hand-painted feather plume.",
+    image: "/images/event-decoration/peacock-parade-float.jpg",
+    altText: "Large-scale peacock vehicle parade float with circular tail feather backdrop",
+    aspectRatio: "portrait",
+    projectType: "Completed Work",
+    location: "School Festival Walk, Sri Lanka",
+    highlights: [
+      "3D sculpted blue peacock figure with realistic crest and beak",
+      "Expansive circular peacock tail feather fan backdrop",
+      "Custom vehicle float mounting and blue satin fringe border",
+      "Collaborative large-scale creative event build"
+    ],
+    materials: ["Sculpted Foam & Plaster", "Hand-Painted Feather Disc", "Vehicle Mounts"]
+  },
+  {
+    id: "dragon-parade-float-installation",
+    title: "Michaelites Hike Walk Dragon Float Sculpture",
+    category: "Event Decoration",
+    tagline: "Hand-Sculpted Red Dragon Vehicle Installation",
+    description: "Gigantic hand-sculpted red dragon head and vehicle float artwork crafted for the '2K21 Michaelites Hike Walk' parade. Features intricate 3D horn and tooth detailing, dynamic flame whiskers, and matching trailer dragon murals.",
+    image: "/images/event-decoration/dragon-parade-float.jpg",
+    altText: "Hand-sculpted giant red dragon face mounted on a parade truck for Michaelites Hike Walk",
+    aspectRatio: "portrait",
+    projectType: "Completed Work",
+    location: "Parade & Carnival, Sri Lanka",
+    highlights: [
+      "Handcrafted 3D sculpted dragon face mounted on truck front",
+      "Side-panel flowing dragon body painting on trailer",
+      "High-impact crimson and black theatrical theme",
+      "Custom event banner integration"
+    ],
+    materials: ["Sculptural Materials", "Acrylic Paint", "Truck Armature"]
   },
 
   // Graphic Design
