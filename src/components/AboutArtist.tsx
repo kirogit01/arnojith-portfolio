@@ -33,9 +33,9 @@ export const AboutArtist: React.FC = () => {
               <div className="relative rounded-xl overflow-hidden bg-forest-900 border border-gold-500/40 shadow-2xl">
                 <div className="aspect-[4/5] relative overflow-hidden group">
                   <img
-                    src="/images/artist/arnojith-portrait.svg"
+                    src="/images/artist/arnojith.jpg"
                     alt="S. Arnojith - Graphic Designer, Event Decorator, Coconut Leaf Artist"
-                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                    className="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-105"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-forest-950 via-transparent to-transparent opacity-70"></div>
                 </div>

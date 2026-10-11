@@ -55,8 +55,8 @@ export const CoconutLeafArt: React.FC<CoconutLeafArtProps> = ({ onSelectForEnqui
             <div className="relative rounded-2xl overflow-hidden bg-forest-900 border-2 border-gold-500/40 shadow-2xl group">
               <div className="relative aspect-[16/11] sm:aspect-[16/10] overflow-hidden">
                 <img
-                  src="/images/coconut-leaf-art/arch-gateway.svg"
-                  alt="Traditional Ceremonial Coconut Leaf Entrance Gateway"
+                  src="/images/coconut-leaf-art/coconut-rosettes-mandala.jpg"
+                  alt="Traditional Ceremonial Coconut Leaf Mandala Artworks by S. Arnojith"
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-forest-950 via-forest-950/20 to-transparent"></div>
@@ -66,13 +66,13 @@ export const CoconutLeafArt: React.FC<CoconutLeafArtProps> = ({ onSelectForEnqui
               <div className="p-6 sm:p-8 bg-forest-900/90 border-t border-gold-500/30">
                 <div className="flex items-center gap-2 text-xs font-display uppercase tracking-widest text-gold-400 font-semibold mb-2">
                   <Palmtree className="w-4 h-4 text-leaf-400" />
-                  <span>Grand Ceremonial Gateway</span>
+                  <span>Authentic Handcrafted Masterpieces</span>
                 </div>
                 <h3 className="font-serif text-2xl sm:text-3xl font-bold text-ivory-100 mb-2">
-                  Traditional Thoranam Entrance Architecture
+                  Traditional Coconut Leaf Rosettes &amp; Mandalas
                 </h3>
                 <p className="text-sm sm:text-base text-ivory-200/80 font-light leading-relaxed">
-                  Engineered with an eco-friendly bamboo armature and clad in precision-woven fresh coconut fronds. Incorporates centuries-old Sri Lankan cultural motifs, hanging floral buds, and symmetric overhead arches for auspicious occasions.
+                  Handcrafted sunburst chakras, tiered floral mandalas, and ceremonial deity backdrops created from meticulously folded and woven fresh coconut fronds, natural pigments, and traditional Sri Lankan cultural motifs.
                 </p>
               </div>
             </div>
@@ -81,21 +81,21 @@ export const CoconutLeafArt: React.FC<CoconutLeafArtProps> = ({ onSelectForEnqui
           {/* Secondary Editorial Composition (5 Cols) */}
           <div className="lg:col-span-5 space-y-6">
             
-            {/* Supporting Image 1: Sports Meet Gateway */}
+            {/* Supporting Image 1: Ceremonial Pillars Collage */}
             <div className="rounded-xl overflow-hidden bg-forest-900 border border-gold-500/30 shadow-lg group">
-              <div className="relative aspect-[16/9] overflow-hidden">
+              <div className="relative aspect-[16/10] overflow-hidden">
                 <img
-                  src="/images/coconut-leaf-art/sports-meet.svg"
-                  alt="School Sports Meet Coconut Leaf Gateway"
+                  src="/images/coconut-leaf-art/coconut-pillars-collage.jpg"
+                  alt="Ceremonial Coconut Palm Kalasam Pillars and Totems"
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-forest-950/90 via-transparent to-transparent"></div>
                 <div className="absolute bottom-3 left-4 right-4">
                   <span className="text-xs font-serif font-bold text-ivory-100 block">
-                    Sports Meet Welcome Gateway
+                    Ceremonial Coconut Palm Pillars &amp; Kalasams
                   </span>
                   <span className="text-[10px] text-gold-400 font-sans">
-                    Annual athletic function entry arch with crown pediment
+                    Tiered entrance pillars crafted for events, celebrations, and hall styling
                   </span>
                 </div>
               </div>

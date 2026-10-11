@@ -24,42 +24,42 @@ export interface PortfolioProject {
 export const portfolioProjects: PortfolioProject[] = [
   // Coconut Leaf Art
   {
-    id: "coconut-thoranam-arch",
-    title: "Traditional Ceremonial Entrance Arch",
+    id: "coconut-rosettes-mandala",
+    title: "Traditional Coconut Leaf Mandalas & Rosettes",
     category: "Coconut Leaf Art",
-    tagline: "Intricate Sri Lankan Thoranam Gateway",
-    description: "Handcrafted ceremonial entrance arch constructed using freshly woven coconut fronds, symmetrical geometric braids, and hanging floral tassels, built for cultural festivities.",
-    image: "/images/coconut-leaf-art/arch-gateway.svg",
-    altText: "Traditional Sri Lankan woven coconut leaf entrance arch with geometric patterns",
+    tagline: "Sacred Sunburst Chakras & Cultural Motifs",
+    description: "Handcrafted traditional Sri Lankan coconut leaf rosettes, ceremonial sunburst chakras, and deity backdrops woven from natural coconut palm fronds with precision symmetry.",
+    image: "/images/coconut-leaf-art/coconut-rosettes-mandala.jpg",
+    altText: "Traditional Sri Lankan woven coconut leaf rosettes and ceremonial mandalas",
     aspectRatio: "portrait",
     projectType: "Cultural Installation",
     location: "Jaffna, Sri Lanka",
     highlights: [
-      "100% natural, biodegradable coconut palm fronds",
-      "Traditional chevron leaf-braiding technique",
-      "Symmetrical multi-tiered overhead gateway",
-      "Handmade auspicious hanging leaf tassels"
+      "100% natural, freshly harvested coconut palm fronds",
+      "Traditional concentric lotus and sunburst folding techniques",
+      "Symmetrical multi-colored botanical motifs and floral centerpieces",
+      "Sacred ceremonial backdrop for temple and cultural celebrations"
     ],
-    materials: ["Fresh Coconut Leaves", "Bamboo Framework", "Natural Coir Twine"]
+    materials: ["Fresh Coconut Leaves", "Traditional Coir", "Natural Floral Colors"]
   },
   {
-    id: "sports-meet-gateway",
-    title: "School Sports Meet Welcome Gateway",
+    id: "coconut-pillars-kalasam",
+    title: "Ceremonial Coconut Palm Pillars & Totems",
     category: "Coconut Leaf Art",
-    tagline: "Eco-Friendly Grand Entrance",
-    description: "Large-scale entrance gateway designed for an annual school sports meet. Features grand pillars wrapped in green-and-yellow coconut fronds topped with traditional decorative crown motifs.",
-    image: "/images/coconut-leaf-art/sports-meet.svg",
-    altText: "Grand school sports meet entrance gateway woven from coconut leaves",
-    aspectRatio: "landscape",
-    projectType: "Cultural Installation",
+    tagline: "Tiered Kalasam Pillars for Events & Functions",
+    description: "Large-scale handcrafted coconut leaf pillars and ceremonial Kalasam structures engineered for wedding entrances, school sports meets, cultural pavilions, and store grand openings.",
+    image: "/images/coconut-leaf-art/coconut-pillars-collage.jpg",
+    altText: "Grand ceremonial coconut leaf kalasam pillars and decorative totems",
+    aspectRatio: "portrait",
+    projectType: "Completed Work",
     location: "Northern Province, Sri Lanka",
     highlights: [
-      "Dual majestic entryway pillars",
-      "Contrasting light and deep green leaf textures",
-      "Sturdy wind-resistant bamboo skeleton",
-      "Traditional welcome motif canopy"
+      "Tiered multi-level botanical Kalasam architecture",
+      "Handcrafted oil lamp (Deepam) integration tiers",
+      "Contrasting yellow coconut shoot (Kurutthu) and deep green fronds",
+      "Eco-friendly natural event entrance styling"
     ],
-    materials: ["Palm Fronds", "Areca Nut Tree Poles", "Botanical Accents"]
+    materials: ["Palm Fronds", "Areca Nut Tree Poles", "Botanical Flower Accents"]
   },
   {
     id: "cultural-backdrop-panel",
