@@ -24,6 +24,101 @@ export interface PortfolioProject {
 export const portfolioProjects: PortfolioProject[] = [
   // Coconut Leaf Art
   {
+    id: "honda-showroom-opening",
+    title: "Honda Showroom Opening Traditional Coconut Leaf Decor",
+    category: "Coconut Leaf Art",
+    tagline: "Amalathas Motors Grand Opening & Branded Leaf Art",
+    description: "Spectacular corporate grand opening installation for Honda (Amalathas Motors). Combines handcrafted woven Honda wing brand emblem, grand ceremonial 'WELCOME' entrance archway flanked by Annapakshi swan leaf sculptures, and multi-tiered coconut flower Kalasam oil lamp pillars.",
+    image: "/images/coconut-leaf-art/honda-showroom-opening-decor.jpg",
+    altText: "Traditional coconut leaf grand opening decoration for Honda showroom featuring woven Honda logo and swan pillars",
+    aspectRatio: "portrait",
+    projectType: "Completed Work",
+    location: "Amalathas Motors Showroom, Sri Lanka",
+    highlights: [
+      "Hand-woven Honda wing logo backdrop panel crafted from natural palm fronds",
+      "Grand ceremonial 'WELCOME' archway with twin sculptural Annapakshi swan totems",
+      "Multi-tiered Kurutthu Kalasam pillars topped with natural coconut blossoms (Thempookkal)",
+      "Harmonious fusion of modern automotive branding and ancient Sri Lankan craft"
+    ],
+    materials: ["Fresh Coconut Palm Fronds", "Coconut Blossom (Thempookkal)", "Lotus Blooms", "Natural Areca Framework"]
+  },
+  {
+    id: "school-150-jubilee-emblem",
+    title: "150th Jubilee Celebration Monumental School Crest Art",
+    category: "Coconut Leaf Art",
+    tagline: "Bt/ Puthukkudiyiruppu Kannaki Maha Vidyalayam (150 Years)",
+    description: "Monumental circular coconut palm emblem commissioned for the 150th Jubilee Celebration of Bt/ Puthukkudiyiruppu Kannaki Maha Vidyalayam. Features the sacred Tamil school motto 'கற்றுக் தேர்ந்து ஒழுகு', a layered blooming lotus, the open book of wisdom, a glowing Deepam lamp flame, and the '150' milestone crown.",
+    image: "/images/coconut-leaf-art/school-150-jubilee-emblem.jpg",
+    altText: "Monumental circular coconut leaf 150th Jubilee emblem for Kannaki Maha Vidyalayam with lotus and Tamil script",
+    aspectRatio: "portrait",
+    projectType: "Cultural Installation",
+    location: "Puthukkudiyiruppu, Sri Lanka",
+    highlights: [
+      "Massive concentric woven frond medallion with multi-tiered serrated petal borders",
+      "Intricate Tamil calligraphic lettering woven entirely from cut coconut leaves",
+      "Dimensional sacred lotus centerpiece and glowing lamp (Agal Vilakku) motif",
+      "Historic 150th Jubilee commemorative installation mounted on ceremonial carriage"
+    ],
+    materials: ["Tender Coconut Fronds (Kurutthu)", "Mature Green Palm Leaves", "Bamboo & Timber Base"]
+  },
+  {
+    id: "mani-vizha-portrait-arch",
+    title: "Mani Vizha 60th Jubilee Arch & Woven Leaf Portrait Art",
+    category: "Coconut Leaf Art",
+    tagline: "Ceremonial Archway & Handcrafted Leaf Portraiture",
+    description: "Groundbreaking ceremonial entrance archway for 'ஜனாவின் வாக்கு மூலம் மணி விழா மலர்' featuring life-sized portrait busts hand-woven from coconut palm fronds. Integrates grand overhead Tamil typography, tiered geometric chevron braids, and symmetrical sunburst floral chakras.",
+    image: "/images/coconut-leaf-art/mani-vizha-portrait-arch.jpg",
+    altText: "Grand ceremonial Mani Vizha entrance arch featuring woven coconut leaf portraits of celebrated guests",
+    aspectRatio: "portrait",
+    projectType: "Cultural Installation",
+    location: "Cultural Celebration, Sri Lanka",
+    highlights: [
+      "Pioneering coconut-leaf portrait technique: dimensional face and attire details",
+      "Towering ceremonial archway with crisp Tamil typography banner",
+      "Tiered chevron-braided columns and concentric lotus mandalas",
+      "Complete on-site fabrication and structural installation with creative artisan team"
+    ],
+    materials: ["Multi-Shade Palm Fronds", "Structural Framework", "Hand-Folded Rosettes"]
+  },
+  {
+    id: "sports-meet-2025-arch",
+    title: "Annual Sports Meet 2025 Entrance Arch & Live Craft Workshop",
+    category: "Coconut Leaf Art",
+    tagline: "Athletic Ground Gateway & Artisanal Fabrication",
+    description: "Authentic sports meet entrance archway ('SPORTS MEET 2025') constructed with natural woven fronds, chevron borders, and twin circular sunburst chakras. Features documented on-site craftsmanship by S. Arnojith and team.",
+    image: "/images/coconut-leaf-art/sports-meet-2025-arch.jpg",
+    altText: "Sports Meet 2025 coconut leaf entrance arch and live artisan crafting workshop",
+    aspectRatio: "portrait",
+    projectType: "Completed Work",
+    location: "School Sports Grounds, Sri Lanka",
+    highlights: [
+      "Full-span sports ground entrance gateway with 'SPORTS MEET 2025' typography",
+      "Twin flanking sunburst chakra medallions with concentric leaf rosettes",
+      "Traditional thatched palm roof rest pavilion for field officials",
+      "Live on-site artisanal fabrication demonstrating traditional Sri Lankan techniques"
+    ],
+    materials: ["Fresh Green Palm Fronds", "Yellow Kurutthu Accents", "Poles & Coir Rope"]
+  },
+  {
+    id: "coconut-peacock-stage",
+    title: "Traditional Coconut Leaf Stage & Peacock Art Installation",
+    category: "Coconut Leaf Art",
+    tagline: "Masterpiece Woven Backdrop & Sculpted Leaf Peacocks",
+    description: "Spectacular ceremonial stage backdrop constructed entirely from fresh woven coconut leaves. Features two magnificent sculptural peacocks with cascading leaf-folded feathers, twin towering Gokku Kalasams with natural coconut blossoms, and a central sunburst chakra.",
+    image: "/images/coconut-leaf-art/coconut-peacock-stage.jpg",
+    altText: "Grand stage backdrop woven with coconut leaves featuring two leaf peacocks and kalasam pillars",
+    aspectRatio: "landscape",
+    projectType: "Cultural Installation",
+    location: "Ceremonial Stage, Sri Lanka",
+    highlights: [
+      "Dual life-sized peacocks crafted entirely from folded coconut fronds",
+      "Seamless geometric woven coconut leaf wall tapestry",
+      "Twin multi-tiered Gokku Kalasam structures with natural coconut flowers",
+      "Traditional ceremonial stage backdrop for cultural events"
+    ],
+    materials: ["Fresh Coconut Fronds", "Coconut Flowers (Thempookkal)", "Eco Framing"]
+  },
+  {
     id: "coconut-rosettes-mandala",
     title: "Traditional Coconut Leaf Mandalas & Rosettes",
     category: "Coconut Leaf Art",
@@ -60,25 +155,6 @@ export const portfolioProjects: PortfolioProject[] = [
       "Eco-friendly natural event entrance styling"
     ],
     materials: ["Palm Fronds", "Areca Nut Tree Poles", "Botanical Flower Accents"]
-  },
-  {
-    id: "coconut-peacock-stage",
-    title: "Traditional Coconut Leaf Stage & Peacock Art Installation",
-    category: "Coconut Leaf Art",
-    tagline: "Masterpiece Woven Backdrop & Sculpted Leaf Peacocks",
-    description: "Spectacular ceremonial stage backdrop constructed entirely from fresh woven coconut leaves. Features two magnificent sculptural peacocks with cascading leaf-folded feathers, twin towering Gokku Kalasams with natural coconut blossoms, and a central sunburst chakra.",
-    image: "/images/coconut-leaf-art/coconut-peacock-stage.jpg",
-    altText: "Grand stage backdrop woven with coconut leaves featuring two leaf peacocks and kalasam pillars",
-    aspectRatio: "landscape",
-    projectType: "Cultural Installation",
-    location: "Ceremonial Stage, Sri Lanka",
-    highlights: [
-      "Dual life-sized peacocks crafted entirely from folded coconut fronds",
-      "Seamless geometric woven coconut leaf wall tapestry",
-      "Twin multi-tiered Gokku Kalasam structures with natural coconut flowers",
-      "Traditional ceremonial stage backdrop for cultural events"
-    ],
-    materials: ["Fresh Coconut Fronds", "Coconut Flowers (Thempookkal)", "Eco Framing"]
   },
 
   // Event Decoration

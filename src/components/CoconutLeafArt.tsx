@@ -125,6 +125,141 @@ export const CoconutLeafArt: React.FC<CoconutLeafArtProps> = ({ onSelectForEnqui
 
         </div>
 
+        {/* Real Field Installations & Cultural Commissions */}
+        <div className="mb-16">
+          <div className="text-center mb-10">
+            <span className="text-xs font-display uppercase tracking-widest text-gold-400 font-semibold block mb-2">
+              Cultural &amp; Commercial Commissions
+            </span>
+            <h3 className="font-serif text-2xl sm:text-3xl md:text-4xl font-bold text-ivory-100">
+              Monumental Installations &amp; Traditional Artistry
+            </h3>
+            <p className="mt-2 text-sm text-ivory-200/75 max-w-2xl mx-auto font-light">
+              From corporate brand launches to historic school jubilees and cultural parades — handcrafted with natural, sustainable coconut fronds.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            
+            {/* Project 1: Honda Showroom Grand Opening */}
+            <div className="rounded-2xl bg-forest-900/80 border border-gold-500/30 overflow-hidden shadow-lg hover:border-gold-500/70 hover:shadow-gold-glow/20 transition-all duration-300 flex flex-col group">
+              <div className="relative aspect-[3/4] overflow-hidden bg-forest-950">
+                <img
+                  src="/images/coconut-leaf-art/honda-showroom-opening-decor.jpg"
+                  alt="Honda Showroom Opening Traditional Coconut Leaf Decor by S. Arnojith"
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                  loading="lazy"
+                />
+                <span className="absolute top-3 left-3 text-[10px] font-display uppercase tracking-widest px-2.5 py-1 rounded bg-forest-950/85 text-gold-400 font-semibold backdrop-blur-sm border border-gold-500/30">
+                  Corporate Launch
+                </span>
+              </div>
+              <div className="p-5 flex-1 flex flex-col justify-between">
+                <div>
+                  <h4 className="font-serif text-lg font-bold text-ivory-100 mb-2 group-hover:text-gold-300 transition-colors">
+                    Honda Showroom Opening
+                  </h4>
+                  <p className="text-xs text-ivory-200/80 leading-relaxed mb-3">
+                    Woven Honda wing brand emblem, Annapakshi swan sculptural totems, and Welcome entrance arch for Amalathas Motors.
+                  </p>
+                </div>
+                <div className="pt-3 border-t border-forest-800 text-[11px] font-display uppercase tracking-wider text-gold-400 flex items-center justify-between">
+                  <span>Amalathas Motors</span>
+                  <span className="text-leaf-400">Sri Lanka</span>
+                </div>
+              </div>
+            </div>
+
+            {/* Project 2: 150th School Jubilee Emblem */}
+            <div className="rounded-2xl bg-forest-900/80 border border-gold-500/30 overflow-hidden shadow-lg hover:border-gold-500/70 hover:shadow-gold-glow/20 transition-all duration-300 flex flex-col group">
+              <div className="relative aspect-[3/4] overflow-hidden bg-forest-950">
+                <img
+                  src="/images/coconut-leaf-art/school-150-jubilee-emblem.jpg"
+                  alt="150th Jubilee School Crest Art - Bt/ Puthukkudiyiruppu Kannaki Maha Vidyalayam"
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                  loading="lazy"
+                />
+                <span className="absolute top-3 left-3 text-[10px] font-display uppercase tracking-widest px-2.5 py-1 rounded bg-forest-950/85 text-gold-400 font-semibold backdrop-blur-sm border border-gold-500/30">
+                  150 Year Jubilee
+                </span>
+              </div>
+              <div className="p-5 flex-1 flex flex-col justify-between">
+                <div>
+                  <h4 className="font-serif text-lg font-bold text-ivory-100 mb-2 group-hover:text-gold-300 transition-colors">
+                    150th Jubilee School Crest
+                  </h4>
+                  <p className="text-xs text-ivory-200/80 leading-relaxed mb-3">
+                    Monumental circular palm medallion with Tamil motto &apos;கற்றுக் தேர்ந்து ஒழுகு&apos;, blooming lotus, book, and deepam lamp flame.
+                  </p>
+                </div>
+                <div className="pt-3 border-t border-forest-800 text-[11px] font-display uppercase tracking-wider text-gold-400 flex items-center justify-between">
+                  <span>Kannaki M.V.</span>
+                  <span className="text-leaf-400">Puthukkudiyiruppu</span>
+                </div>
+              </div>
+            </div>
+
+            {/* Project 3: Mani Vizha 60th Jubilee Woven Portrait Arch */}
+            <div className="rounded-2xl bg-forest-900/80 border border-gold-500/30 overflow-hidden shadow-lg hover:border-gold-500/70 hover:shadow-gold-glow/20 transition-all duration-300 flex flex-col group">
+              <div className="relative aspect-[3/4] overflow-hidden bg-forest-950">
+                <img
+                  src="/images/coconut-leaf-art/mani-vizha-portrait-arch.jpg"
+                  alt="Mani Vizha 60th Jubilee Arch & Woven Leaf Portraiture by S. Arnojith"
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                  loading="lazy"
+                />
+                <span className="absolute top-3 left-3 text-[10px] font-display uppercase tracking-widest px-2.5 py-1 rounded bg-forest-950/85 text-gold-400 font-semibold backdrop-blur-sm border border-gold-500/30">
+                  Portrait Art &amp; Arch
+                </span>
+              </div>
+              <div className="p-5 flex-1 flex flex-col justify-between">
+                <div>
+                  <h4 className="font-serif text-lg font-bold text-ivory-100 mb-2 group-hover:text-gold-300 transition-colors">
+                    Mani Vizha Portrait Arch
+                  </h4>
+                  <p className="text-xs text-ivory-200/80 leading-relaxed mb-3">
+                    Groundbreaking life-sized portrait busts hand-woven from coconut palm fronds, ceremonial Tamil archway, and chevron borders.
+                  </p>
+                </div>
+                <div className="pt-3 border-t border-forest-800 text-[11px] font-display uppercase tracking-wider text-gold-400 flex items-center justify-between">
+                  <span>Mani Vizha Malar</span>
+                  <span className="text-leaf-400">Cultural Stage</span>
+                </div>
+              </div>
+            </div>
+
+            {/* Project 4: Sports Meet 2025 Gateway & Workshop */}
+            <div className="rounded-2xl bg-forest-900/80 border border-gold-500/30 overflow-hidden shadow-lg hover:border-gold-500/70 hover:shadow-gold-glow/20 transition-all duration-300 flex flex-col group">
+              <div className="relative aspect-[3/4] overflow-hidden bg-forest-950">
+                <img
+                  src="/images/coconut-leaf-art/sports-meet-2025-arch.jpg"
+                  alt="Annual Sports Meet 2025 Entrance Arch & Live Artisanal Fabrication"
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                  loading="lazy"
+                />
+                <span className="absolute top-3 left-3 text-[10px] font-display uppercase tracking-widest px-2.5 py-1 rounded bg-forest-950/85 text-gold-400 font-semibold backdrop-blur-sm border border-gold-500/30">
+                  Live Craft &amp; Arch
+                </span>
+              </div>
+              <div className="p-5 flex-1 flex flex-col justify-between">
+                <div>
+                  <h4 className="font-serif text-lg font-bold text-ivory-100 mb-2 group-hover:text-gold-300 transition-colors">
+                    Sports Meet 2025 Gateway
+                  </h4>
+                  <p className="text-xs text-ivory-200/80 leading-relaxed mb-3">
+                    Athletic grounds entrance gateway with sunburst chakra medallions, palm canopy pavilion, and live on-site crafting.
+                  </p>
+                </div>
+                <div className="pt-3 border-t border-forest-800 text-[11px] font-display uppercase tracking-wider text-gold-400 flex items-center justify-between">
+                  <span>Sports Meet 2025</span>
+                  <span className="text-leaf-400">Field Gateway</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
         {/* Craft Features Breakdown */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 pt-4 mb-14">
           {craftFeatures.map((feat, i) => (
