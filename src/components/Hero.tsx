@@ -100,9 +100,9 @@ export const Hero: React.FC = () => {
                 {/* Visual Image */}
                 <div className="relative aspect-[4/5] overflow-hidden group">
                   <img
-                    src="/images/coconut-leaf-art/coconut-rosettes-mandala.jpg"
-                    alt="Traditional Sri Lankan Coconut Leaf Ceremonial Mandala by S. Arnojith"
-                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                    src="/images/artist/arnojith.jpg"
+                    alt="S. Arnojith - Graphic Designer, Event Decorator, Coconut Leaf Artist"
+                    className="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-105"
                     loading="eager"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-forest-950 via-transparent to-transparent opacity-80"></div>
@@ -110,13 +110,13 @@ export const Hero: React.FC = () => {
                   {/* Floating Metadata Caption */}
                   <div className="absolute bottom-4 left-4 right-4 p-4 rounded-lg bg-forest-950/85 backdrop-blur-md border border-gold-500/30">
                     <span className="inline-block text-[10px] font-display uppercase tracking-widest text-gold-400 font-semibold mb-1">
-                      Signature Handcrafted Art
+                      S. Arnojith
                     </span>
                     <h3 className="font-serif text-lg font-bold text-ivory-100">
-                      Traditional Coconut Leaf Mandalas &amp; Gateways
+                      Creative Professional &amp; Artist
                     </h3>
                     <p className="text-xs text-ivory-200/80 font-sans mt-0.5">
-                      Intricate handcrafted cultural rosettes, ceremonial chakras, and natural palm arches
+                      Graphic Design · Event Decoration · Traditional Craftsmanship
                     </p>
                   </div>
                 </div>
