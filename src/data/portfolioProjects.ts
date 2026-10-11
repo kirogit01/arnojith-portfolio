@@ -119,6 +119,63 @@ export const portfolioProjects: PortfolioProject[] = [
     materials: ["Fresh Coconut Fronds", "Coconut Flowers (Thempookkal)", "Eco Framing"]
   },
   {
+    id: "ganesha-shrine-backdrop",
+    title: "Lord Ganesha Deity Shrine & Sacred Woven Palm Backdrop",
+    category: "Coconut Leaf Art",
+    tagline: "Traditional Pooja Mandapam & Coconut Blossom Kalasams",
+    description: "Exquisite sacred shrine decor crafted for religious ceremonies and temple poojas. Features a tightly woven natural coconut palm leaf mat tapestry, cascading fresh white jasmine flower garlands, ceremonial brass deepam lamp, and twin tiered Kalasam pillars topped with live coconut blossoms (Thempookkal) framing Lord Ganesha.",
+    image: "/images/coconut-leaf-art/ganesha-shrine-backdrop.jpg",
+    altText: "Lord Ganesha shrine with woven coconut leaf mat backdrop, jasmine garlands, and coconut flower pillars",
+    aspectRatio: "portrait",
+    projectType: "Cultural Installation",
+    location: "Temple & Ceremonial Shrine, Sri Lanka",
+    highlights: [
+      "Hand-woven coconut palm mat backdrop with geometric diamond weave",
+      "Twin tiered Kurutthu Kalasams with natural coconut blossoms (Thempookkal)",
+      "Cascading fresh jasmine flower strings and sacred lotus adornments",
+      "Traditional brass five-wick Deepam lamp and grass carpet staging"
+    ],
+    materials: ["Tender Fronds (Kurutthu)", "Live Coconut Blossoms", "Fresh Jasmine Flowers", "Brass Oil Lamp"]
+  },
+  {
+    id: "wedding-stage-oonjal-decor",
+    title: "Ceremonial Wedding Stage & Coconut Leaf Swing (Oonjal) Architecture",
+    category: "Coconut Leaf Art",
+    tagline: "Traditional Wedding Mandapam & Swan Parade Sculptures",
+    description: "Complete ceremonial wedding decor suite and cultural vehicle parade float collection. Features an authentic coconut-leaf framed wedding swing (Oonjal) canopy, ceremonial entrance arches, and majestic illuminated Annapakshi swan chariot floats.",
+    image: "/images/coconut-leaf-art/wedding-stage-oonjal-decor.jpg",
+    altText: "Traditional wedding stage with woven swing canopy and royal swan chariot floats",
+    aspectRatio: "portrait",
+    projectType: "Completed Work",
+    location: "Wedding Hall & Cultural Celebrations, Sri Lanka",
+    highlights: [
+      "Authentic handcrafted coconut-leaf ceremonial wedding swing (Oonjal)",
+      "Towering curved gateway arches with tiered rosette embellishments",
+      "Large-scale sculptural swan (Annapakshi) parade carriage builds",
+      "Night-time LED illumination integration for cultural processions"
+    ],
+    materials: ["Woven Palm Fronds", "Timber Swing Frame", "Sculptural Framework", "Flower Garlands"]
+  },
+  {
+    id: "temple-festival-arches-collage",
+    title: "Kumbabishekam & Cultural Temple Festival Entrance Gateways",
+    category: "Coconut Leaf Art",
+    tagline: "Sacred Temple Thoranams & Chariot (Therottam) Arches",
+    description: "Monumental ceremonial entrance archways constructed for grand temple festivals across Sri Lanka, including Sivan Kovil Maha Kumbabishekam, Chithirai New Year 2025 ('சித்திரை புத்தாண்டு'), Rajarajeswari Amman Kovil, Therottam chariot festival, and Kuliyapitiya University College 'கலை வாணி விழா'.",
+    image: "/images/coconut-leaf-art/temple-festival-arches-collage.jpg",
+    altText: "Collection of grand temple festival coconut leaf entrance gateways including Kumbabishekam and Chithirai Puthandu",
+    aspectRatio: "portrait",
+    projectType: "Cultural Installation",
+    location: "Temple Festivals Across Sri Lanka",
+    highlights: [
+      "Monumental Kumbabishekam archways with multi-tiered Kalasam pillars",
+      "Chithirai New Year 2025 sun medallion gateway with natural fronds",
+      "Chariot festival ('தேரோட்டம்') grand pathway entrance architecture",
+      "Kuliyapitiya University College 'கலை வாணி விழா' academic festival gateway"
+    ],
+    materials: ["Fresh Coconut Leaves", "Tender Palm Shoots", "Structural Timber & Poles", "Coir Ropes"]
+  },
+  {
     id: "coconut-rosettes-mandala",
     title: "Traditional Coconut Leaf Mandalas & Rosettes",
     category: "Coconut Leaf Art",

@@ -10,12 +10,13 @@ export interface SiteConfig {
     signature: string;
   };
   contact: {
-    whatsappNumber: string; // e.g. "94771234567" (country code without '+')
+    whatsappNumber: string; // e.g. "94757531336" (country code without '+')
     displayPhone: string;
     email: string;
     location: string;
-    instagram?: string;
     facebook?: string;
+    tiktok?: string;
+    instagram?: string;
   };
   navLinks: { name: string; href: string }[];
 }
@@ -32,13 +33,13 @@ export const siteConfig: SiteConfig = {
     signature: "From Simple Ideas to Beautiful Results.",
   },
   contact: {
-    // Configurable contact details
-    whatsappNumber: "94770000000", // Update with verified Sri Lankan WhatsApp number
-    displayPhone: "+94 77 000 0000",
-    email: "contact@arnojith.com",
+    // Verified contact details
+    whatsappNumber: "94757531336",
+    displayPhone: "+94 75 753 1336 (075 753 1336)",
+    email: "arnojithanoch03@gmail.com",
     location: "Sri Lanka",
-    instagram: "https://instagram.com",
-    facebook: "https://facebook.com",
+    facebook: "https://www.facebook.com/share/1ZxQDwszwV/?mibextid=wwXIfr",
+    tiktok: "https://www.tiktok.com/@adhiraa_solutions?_r=1&_t=ZS-9AT0kFM6Vam",
   },
   navLinks: [
     { name: "Home", href: "#hero" },
