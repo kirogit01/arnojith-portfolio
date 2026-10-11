@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 650" width="100%" height="100%">
+    <rect width="1000" height="650" fill="#183D2A"/>
+    <rect x="100" y="100" width="800" height="450" fill="#F8F5ED" stroke="#C9A34E" stroke-width="2"/>
+    <path d="M200 150 Q 500 200 800 150 L 800 350 Q 500 400 200 350 Z" fill="#315C3B" opacity="0.2"/>
+    <circle cx="500" cy="300" r="70" fill="#173D2A" stroke="#C9A34E" stroke-width="2"/>
+    <path d="M480 270 L520 270 L520 310 L480 310 Z M500 310 L500 350" stroke="#C9A34E" stroke-width="4" fill="none"/>
+    <text x="500" y="440" fill="#173D2A" font-family="Cormorant Garamond, serif" font-size="26" font-weight="600" text-anchor="middle">PRECISION PAINTING &amp; WALL FINISHING</text>
+  </svg>

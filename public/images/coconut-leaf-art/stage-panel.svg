@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 700" width="100%" height="100%">
+    <rect width="700" height="700" fill="#143323"/>
+    <g fill="none" stroke="#7D9A50" stroke-width="3" opacity="0.75">
+      <path d="M350 50 L650 350 L350 650 L50 350 Z"/>
+      <path d="M350 120 L580 350 L350 580 L120 350 Z"/>
+      <path d="M350 190 L510 350 L350 510 L190 350 Z"/>
+      <path d="M350 260 L440 350 L350 440 L260 350 Z"/>
+    </g>
+    <circle cx="350" cy="350" r="55" fill="#C9A34E" stroke="#F8F5ED" stroke-width="2"/>
+    <circle cx="350" cy="350" r="25" fill="#173D2A"/>
+    <text x="350" y="630" fill="#F8F5ED" font-family="Cormorant Garamond, serif" font-size="20" font-weight="600" text-anchor="middle">WOVEN FLORAL STAGE TAPESTRY</text>
+  </svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="100%" height="100%">
+    <rect width="800" height="1000" fill="#12281D"/>
+    <circle cx="400" cy="380" r="180" fill="#1E4833" stroke="#C9A34E" stroke-width="3"/>
+    <circle cx="400" cy="340" r="85" fill="#315C3B"/>
+    <path d="M 230 650 Q 400 480 570 650 L 570 780 L 230 780 Z" fill="#315C3B"/>
+    <path d="M 200 400 Q 400 200 600 400" fill="none" stroke="#7D9A50" stroke-width="6" stroke-dasharray="10 8"/>
+    <circle cx="400" cy="295" r="12" fill="#C9A34E"/>
+    <rect x="160" y="800" width="480" height="120" rx="8" fill="#0B1A12" stroke="#C9A34E" stroke-width="1.5"/>
+    <text x="400" y="845" fill="#F8F5ED" font-family="Cormorant Garamond, serif" font-size="30" font-weight="600" text-anchor="middle">S. ARNOJITH</text>
+    <text x="400" y="875" fill="#C9A34E" font-family="Cinzel, serif" font-size="12" letter-spacing="2" text-anchor="middle">GRAPHIC DESIGNER &amp; CRAFTSMAN</text>
+    <text x="400" y="900" fill="#94B263" font-family="Plus Jakarta Sans, sans-serif" font-size="11" text-anchor="middle">Replace with official artist photograph</text>
+  </svg>

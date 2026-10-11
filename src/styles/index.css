@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: #173D2A;
+  --color-secondary: #315C3B;
+  --color-accent: #7D9A50;
+  --color-gold: #C9A34E;
+  --color-bg-light: #F8F5ED;
+  --color-bg-dark: #112A1D;
+  --color-fg-dark: #252823;
+  --color-fg-light: #F8F5ED;
+  --color-muted: #E9E0D0;
+  
+  --font-serif: 'Cormorant Garamond', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-display: 'Cinzel', serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    color: var(--color-fg-dark);
+    background-color: var(--color-bg-light);
+  }
+
+  /* Custom subtle scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #112A1D;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #315C3B;
+    border-radius: 4px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #C9A34E;
+  }
+}
+
+/* Custom styling for botanical flourish borders */
+.border-gold-subtle {
+  border-color: rgba(201, 163, 78, 0.28);
+}
+
+.gold-glow {
+  box-shadow: 0 0 30px rgba(201, 163, 78, 0.15);
+}
+
+.botanical-pattern {
+  background-image: radial-gradient(rgba(201, 163, 78, 0.08) 1px, transparent 1px);
+  background-size: 28px 28px;
+}

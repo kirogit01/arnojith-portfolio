@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 200" width="100%" height="100%">
+    <defs>
+      <linearGradient id="goldLogo" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0%" stop-color="#C9A34E"/>
+        <stop offset="100%" stop-color="#F3DC9B"/>
+      </linearGradient>
+    </defs>
+    <g transform="translate(50, 40)">
+      <path d="M50 10 Q 15 50 50 110 Q 85 50 50 10 Z" fill="#315C3B" stroke="#C9A34E" stroke-width="2"/>
+      <path d="M50 10 L50 110 M50 40 L30 60 M50 60 L70 80 M50 80 L35 95" stroke="#C9A34E" stroke-width="2" stroke-linecap="round"/>
+    </g>
+    <text x="180" y="95" fill="#F8F5ED" font-family="Cinzel, serif" font-size="38" font-weight="700" letter-spacing="4">AATHIRAA</text>
+    <text x="182" y="130" fill="url(#goldLogo)" font-family="Cinzel, serif" font-size="16" letter-spacing="6">SOLUTIONS</text>
+    <text x="182" y="160" fill="#7D9A50" font-family="Plus Jakarta Sans, sans-serif" font-size="12" letter-spacing="1.5">CREATIVE &amp; EVENT SERVICES</text>
+  </svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="100%" height="100%">
+    <rect width="800" height="1000" fill="#163826"/>
+    <polygon points="400,180 280,680 520,680" fill="none" stroke="#C9A34E" stroke-width="6"/>
+    <rect x="240" y="280" width="320" height="220" rx="8" fill="#F8F5ED" stroke="#C9A34E" stroke-width="3"/>
+    <text x="400" y="360" fill="#173D2A" font-family="Cinzel, serif" font-size="16" letter-spacing="3" text-anchor="middle">WELCOME TO</text>
+    <text x="400" y="410" fill="#173D2A" font-family="Cormorant Garamond, serif" font-size="32" font-weight="700" text-anchor="middle">THE CELEBRATION</text>
+    <circle cx="400" cy="280" r="40" fill="#7D9A50"/>
+    <circle cx="400" cy="280" r="20" fill="#C9A34E"/>
+    <rect x="160" y="650" width="90" height="180" fill="#1E4833" stroke="#C9A34E" stroke-width="1.5"/>
+    <rect x="550" y="650" width="90" height="180" fill="#1E4833" stroke="#C9A34E" stroke-width="1.5"/>
+    <circle cx="205" cy="610" r="20" fill="#F3DC9B" opacity="0.8"/>
+    <circle cx="595" cy="610" r="20" fill="#F3DC9B" opacity="0.8"/>
+  </svg>

@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="100%" height="100%">
+    <defs>
+      <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#0E2318"/>
+        <stop offset="60%" stop-color="#173D2A"/>
+        <stop offset="100%" stop-color="#254E36"/>
+      </linearGradient>
+      <linearGradient id="leafGrad" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#96B462"/>
+        <stop offset="100%" stop-color="#587438"/>
+      </linearGradient>
+      <linearGradient id="goldGrad" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#F3DC9B"/>
+        <stop offset="100%" stop-color="#C9A34E"/>
+      </linearGradient>
+      <pattern id="wovenPattern" width="40" height="40" patternUnits="userSpaceOnUse">
+        <path d="M0 20 L20 0 L40 20 L20 40 Z" fill="none" stroke="#7D9A50" stroke-width="1.5" opacity="0.35"/>
+        <path d="M0 0 L40 40 M40 0 L0 40" stroke="#C9A34E" stroke-width="0.8" opacity="0.25"/>
+      </pattern>
+    </defs>
+    <rect width="800" height="1000" fill="url(#skyGrad)"/>
+    <rect width="800" height="1000" fill="url(#wovenPattern)" opacity="0.5"/>
+    
+    <!-- Outer Arch Framework -->
+    <path d="M 120 950 L 120 480 Q 400 120 680 480 L 680 950" fill="none" stroke="#A67C2E" stroke-width="16"/>
+    <path d="M 180 950 L 180 500 Q 400 200 620 500 L 620 950" fill="none" stroke="#587438" stroke-width="12"/>
+    
+    <!-- Thoranam Chevron Leaf Strands -->
+    <g fill="none" stroke="url(#leafGrad)" stroke-width="8" stroke-linecap="round">
+      <path d="M120 900 L180 860 M120 840 L180 800 M120 780 L180 740 M120 720 L180 680 M120 660 L180 620 M120 600 L180 560 M120 540 L180 500"/>
+      <path d="M180 900 L120 860 M180 840 L120 800 M180 780 L120 740 M180 720 L120 680 M180 660 L120 620 M180 600 L120 560 M180 540 L120 500"/>
+      <path d="M620 900 L680 860 M620 840 L680 800 M620 780 L680 740 M620 720 L680 680 M620 660 L680 620 M620 600 L680 560 M620 540 L680 500"/>
+      <path d="M680 900 L620 860 M680 840 L620 800 M680 780 L620 740 M680 720 L620 680 M680 660 L620 620 M680 600 L620 560 M680 540 L620 500"/>
+    </g>
+
+    <!-- Arch Top Sunburst / Peacock Motif -->
+    <circle cx="400" cy="280" r="60" fill="#C9A34E" opacity="0.85"/>
+    <circle cx="400" cy="280" r="45" fill="#173D2A"/>
+    <path d="M 400 190 Q 360 250 400 280 Q 440 250 400 190" fill="url(#goldGrad)"/>
+    <path d="M 320 220 Q 370 260 400 280 Q 350 280 320 220" fill="url(#leafGrad)"/>
+    <path d="M 480 220 Q 430 260 400 280 Q 450 280 480 220" fill="url(#leafGrad)"/>
+    
+    <!-- Hanging Auspicious Woven Tassels -->
+    <g stroke="#C9A34E" stroke-width="2" fill="#7D9A50">
+      <line x1="280" y1="360" x2="280" y2="450"/>
+      <polygon points="280,450 270,480 290,480"/>
+      <line x1="340" y1="320" x2="340" y2="420"/>
+      <polygon points="340,420 330,450 350,450"/>
+      <line x1="400" y1="340" x2="400" y2="470"/>
+      <polygon points="400,470 385,505 415,505"/>
+      <line x1="460" y1="320" x2="460" y2="420"/>
+      <polygon points="460,420 450,450 470,450"/>
+      <line x1="520" y1="360" x2="520" y2="450"/>
+      <polygon points="520,450 510,480 530,480"/>
+    </g>
+    
+    <!-- Badge Label Overlay -->
+    <rect x="160" y="860" width="480" height="75" rx="6" fill="#0B1A12" fill-opacity="0.9" stroke="#C9A34E" stroke-width="1.5"/>
+    <text x="400" y="895" fill="#F8F5ED" font-family="Cormorant Garamond, serif" font-size="24" font-weight="600" text-anchor="middle">TRADITIONAL THORANAM ARCH</text>
+    <text x="400" y="920" fill="#C9A34E" font-family="Cinzel, serif" font-size="12" letter-spacing="3" text-anchor="middle">HANDCRAFTED COCONUT LEAF ARTISTRY</text>
+  </svg>

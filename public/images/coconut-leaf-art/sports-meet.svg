@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 650" width="100%" height="100%">
+    <defs>
+      <linearGradient id="bgGrad2" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#112A1D"/>
+        <stop offset="100%" stop-color="#1D442F"/>
+      </linearGradient>
+    </defs>
+    <rect width="1000" height="650" fill="url(#bgGrad2)"/>
+    <!-- Structural Gateway Pillars -->
+    <rect x="140" y="180" width="90" height="450" fill="#244D34" stroke="#7D9A50" stroke-width="3"/>
+    <rect x="770" y="180" width="90" height="450" fill="#244D34" stroke="#7D9A50" stroke-width="3"/>
+    <!-- Overhead Lintel with Woven Chevrons -->
+    <rect x="100" y="160" width="800" height="90" fill="#173D2A" stroke="#C9A34E" stroke-width="2"/>
+    <!-- Triangular Pediment -->
+    <polygon points="100,160 500,40 900,160" fill="#1D4830" stroke="#7D9A50" stroke-width="3"/>
+    <circle cx="500" cy="110" r="35" fill="#C9A34E"/>
+    <!-- Coconut Frond Woven Strands -->
+    <path d="M230 160 L500 50 L770 160" fill="none" stroke="#94B263" stroke-width="6" stroke-dasharray="10 6"/>
+    <g fill="none" stroke="#B0CA85" stroke-width="4">
+      <path d="M140 220 L230 260 M140 300 L230 340 M140 380 L230 420 M140 460 L230 500"/>
+      <path d="M770 220 L860 260 M770 300 L860 340 M770 380 L860 420 M770 460 L860 500"/>
+    </g>
+    <!-- Label -->
+    <rect x="280" y="520" width="440" height="65" rx="4" fill="#0E2318" stroke="#C9A34E" stroke-width="1.5"/>
+    <text x="500" y="550" fill="#F8F5ED" font-family="Cormorant Garamond, serif" font-size="22" font-weight="600" text-anchor="middle">SPORTS MEET WELCOME GATEWAY</text>
+    <text x="500" y="572" fill="#C9A34E" font-family="Cinzel, serif" font-size="11" letter-spacing="2" text-anchor="middle">BOTANICAL CANOPY INSTALLATION</text>
+  </svg>
