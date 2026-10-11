@@ -9,22 +9,22 @@ interface GraphicDesignProps {
 export const GraphicDesign: React.FC<GraphicDesignProps> = ({ onSelectForEnquiry }) => {
   const designDisciplines = [
     {
-      title: "Brand Identity & Logo Concepts",
-      desc: "Distinctive emblems, cohesive typography palettes, and consistent identity guidelines designed for commercial and creative ventures.",
-      image: "/images/graphic-design/brand-identity.svg",
-      tag: "Identity Design",
+      title: "SHY Coffee Shop Logo & Brand Identity",
+      desc: "Distinctive coffee cup silhouette with interlocking geometric circles, warm espresso gradient, and dual serif/script typography.",
+      image: "/images/graphic-design/shy-coffee-logo.jpg",
+      tag: "Logo & Identity",
     },
     {
-      title: "Event Banners & Cultural Posters",
-      desc: "High-contrast promotional posters balancing bilingual Tamil and English typography, event hierarchy, and cultural aesthetics.",
-      image: "/images/graphic-design/event-poster.svg",
-      tag: "Print & Poster",
+      title: "Commercial Promotional Posters (Akshi Restaurant)",
+      desc: "Vibrant culinary marketing poster with dynamic red contrast, bespoke 3D headline typography, discount callouts, and social-first composition.",
+      image: "/images/graphic-design/spicy-biryani-poster.jpg",
+      tag: "Advertising & Poster",
     },
     {
-      title: "Ceremonial Invitations & Stationery",
-      desc: "Bespoke invitation cards with gold foil accents, botanical leaf borders, and refined formal typography.",
-      image: "/images/graphic-design/invitation-suite.svg",
-      tag: "Stationery Design",
+      title: "SHY Cafe Packaging & Merchandise",
+      desc: "Eco-friendly kraft paper bag packaging design featuring clean minimalist typography and terracotta coffee bean accent icon.",
+      image: "/images/graphic-design/shy-cafe-packaging.jpg",
+      tag: "Packaging & Print",
     },
   ];
 

@@ -120,95 +120,100 @@ export const portfolioProjects: PortfolioProject[] = [
 
   // Graphic Design
   {
-    id: "aathiraa-brand-identity",
-    title: "Aathiraa Solutions Visual Identity",
+    id: "shy-coffee-logo-design",
+    title: "SHY Coffee Shop Brand Identity & Logo Design",
     category: "Graphic Design",
-    tagline: "Earthy, Authentic Brand Language",
-    description: "Brand identity system uniting traditional craftsmanship with contemporary professional styling, featuring clean typography and nature-inspired green-gold hues.",
-    image: "/images/graphic-design/brand-identity.svg",
-    altText: "Branding suite design with logo, typography, and stationery mockup",
-    aspectRatio: "landscape",
-    projectType: "Design Concept",
-    location: "Brand Portfolio",
-    highlights: [
-      "Organic serif and clean modern sans typography",
-      "Distinctive botanical leaf emblem",
-      "Versatile application across print and digital media"
-    ],
-    materials: ["Vector Graphics", "Brand Style Guide", "Digital Mockups"]
-  },
-  {
-    id: "cultural-event-poster",
-    title: "Cultural Festival Promotional Poster",
-    category: "Graphic Design",
-    tagline: "High-Impact Print Composition",
-    description: "Festival poster design balancing traditional cultural iconography with structured hierarchy, readable Tamil & English typography, and vibrant contrast.",
-    image: "/images/graphic-design/event-poster.svg",
-    altText: "Cultural festival promotional poster with refined typography and traditional art motifs",
-    aspectRatio: "portrait",
-    projectType: "Design Concept",
-    location: "Visual Communication",
-    highlights: [
-      "Bilingual typography alignment (Tamil & English)",
-      "Traditional ornate border motifs",
-      "High visual contrast for street and digital promotion"
-    ],
-    materials: ["High-Res Print Layout", "Vector Illustrations"]
-  },
-  {
-    id: "event-invitation-suite",
-    title: "Celebration Invitation Card Suite",
-    category: "Graphic Design",
-    tagline: "Refined Gold & Botanical Stationery",
-    description: "Ceremonial invitation card suite featuring delicate gold foil accents, botanical leaf borders, and bespoke typography.",
-    image: "/images/graphic-design/invitation-suite.svg",
-    altText: "Ceremonial invitation card layout with gold foil trim and botanical borders",
+    tagline: "Warm, Elegant Cafe Branding",
+    description: "Brand identity and logo creation for SHY Coffee Shop. Features a steaming coffee cup emblem framed by interlocking geometric circles on a rich espresso gradient background, paired with refined typography.",
+    image: "/images/graphic-design/shy-coffee-logo.jpg",
+    altText: "SHY Coffee Shop logo on espresso brown background with steaming cup icon",
     aspectRatio: "square",
-    projectType: "Design Concept",
-    location: "Stationery Design",
+    projectType: "Completed Work",
+    location: "Brand Identity Portfolio",
     highlights: [
-      "Subtle botanical border ornaments",
-      "Balanced text composition",
-      "Coordinated envelope and RSVP card design"
+      "Custom vector cup and steam silhouette iconography",
+      "Interlocking geometric circle framing concept",
+      "Serif and elegant script dual-font hierarchy",
+      "Warm espresso gradient visual palette"
     ],
-    materials: ["Digital Print Layout", "Stationery Mockup"]
+    materials: ["Vector Identity Design", "Color Palette Guide", "Typography Specs"]
+  },
+  {
+    id: "spicy-biryani-promo-poster",
+    title: "Spicy Biryani Promotional Poster (Akshi Restaurant)",
+    category: "Graphic Design",
+    tagline: "High-Impact Vibrant Food Advertising",
+    description: "Vibrant promotional poster designed for Akshi Restaurant featuring an appetizing hero composition of Spicy Biryani, bold dynamic typography, discount badge, and energetic splatter textures.",
+    image: "/images/graphic-design/spicy-biryani-poster.jpg",
+    altText: "Akshi Restaurant Spicy Biryani promotional food poster with bold red theme and 40 percent off badge",
+    aspectRatio: "square",
+    projectType: "Completed Work",
+    location: "Commercial Advertising",
+    highlights: [
+      "Dynamic high-contrast red & ivory poster hierarchy",
+      "Bespoke stylized 3D headline typography for 'BIRYANI'",
+      "Eye-catching promotional discount badge integration",
+      "High-resolution digital and social media marketing asset"
+    ],
+    materials: ["Social Media Graphics", "High-Res Print Layout", "Photoshop Composition"]
+  },
+  {
+    id: "shy-cafe-packaging-design",
+    title: "SHY Cafe Packaging & Merchandise Design",
+    category: "Graphic Design",
+    tagline: "Minimalist Earthy Paper Carry Bag Mockup",
+    description: "Eco-friendly branded packaging design for SHY Cafe food box carry bags. Features clean modern white typography with a warm terracotta coffee bean emblem on organic craft paper.",
+    image: "/images/graphic-design/shy-cafe-packaging.jpg",
+    altText: "SHY Cafe branded kraft paper shopping bag mockup packaging design",
+    aspectRatio: "portrait",
+    projectType: "Completed Work",
+    location: "Packaging & Brand Stationery",
+    highlights: [
+      "Minimalist typography layout on natural craft bag texture",
+      "Terracotta coffee bean accent icon",
+      "Commercial merchandise and takeaway packaging concept",
+      "Clean, modern cafe aesthetic"
+    ],
+    materials: ["3D Packaging Mockup", "Print Specifications", "Brand Collateral"]
   },
 
-  // Technical Work
+  // Technical Work (Waterproofing & Exterior Finishing)
   {
-    id: "interior-finishing-paint",
-    title: "Commercial Finishing & Interior Painting",
+    id: "multi-story-waterproofing",
+    title: "Multi-Story Building Waterproofing & Exterior Panel Finishing",
     category: "Technical Work",
-    tagline: "Precision Surface Coating & Trims",
-    description: "Comprehensive interior wall finishing and multi-coat protective painting project delivered with smooth edges and uniform coating.",
-    image: "/images/technical-services/painting-finishing.svg",
-    altText: "Smooth interior wall finish and painting project",
+    tagline: "Weatherproof Surface Protection & Modern Cladding",
+    description: "Large-scale multi-story residential building exterior waterproofing and facade finishing project. Included comprehensive moisture barriers, balcony sealing, modern horizontal panel fittings, and protective coatings.",
+    image: "/images/technical-services/building-waterproofing.jpg",
+    altText: "Multi-story building with modern horizontal panel cladding and waterproofing finishing",
     aspectRatio: "landscape",
     projectType: "Completed Work",
-    location: "Commercial Site, Sri Lanka",
+    location: "Sri Lanka",
     highlights: [
-      "Primer and two-coat premium emulsion",
-      "Seamless wall putty crack repairs",
-      "Crisp corner and ceiling transitions"
+      "Multi-coat exterior weather-shield waterproofing application",
+      "Slab edge and balcony moisture seal membranes",
+      "Modern horizontal striped architectural facade paneling",
+      "Durable protective finish resistant to tropical rainfall"
     ],
-    materials: ["Weather-Shield Coating", "Acrylic Putty"]
+    materials: ["Waterproofing Sealants", "Weather-Shield Coatings", "Galvanized Cladding Trim"]
   },
   {
-    id: "suspended-ceiling-fitting",
-    title: "Aesthetic Ceiling Panel Installation",
+    id: "exterior-wall-painting-sealing",
+    title: "Exterior House & Boundary Wall Painting & Protective Sealing",
     category: "Technical Work",
-    tagline: "Structural Alignment & Concealed Wiring",
-    description: "Installation of suspended grid ceiling panels with integrated light recesses and sound-dampening panels for an interior renovation.",
-    image: "/images/technical-services/ceiling-work.svg",
-    altText: "Grid ceiling panel installation with recessed lights",
-    aspectRatio: "square",
+    tagline: "Vibrant Color Finishing & Relief Panel Treatment",
+    description: "Complete exterior house and ornamental boundary wall painting and weather-resistant sealing project. Features rich turquoise blue coatings, contrasting shaded panels, and precision-detailed floral concrete reliefs.",
+    image: "/images/technical-services/exterior-painting-wall.jpg",
+    altText: "Vibrant turquoise blue house and decorative boundary wall with finished ornamental relief panels",
+    aspectRatio: "landscape",
     projectType: "Completed Work",
-    location: "Residential Complex, Sri Lanka",
+    location: "Sri Lanka",
     highlights: [
-      "Laser-leveled grid framework",
-      "Seamless recessed LED fixture cutouts",
-      "Clean edge moldings"
+      "Multi-tone turquoise and cyan weather-shield exterior paint",
+      "Waterproof base coating on boundary wall ground line",
+      "Hand-finished relief floral tile inserts with crisp borders",
+      "Smooth, long-lasting uniform brush and roller application"
     ],
-    materials: ["Gypsum Tiles", "Galvanized Framework"]
+    materials: ["Weatherproof Exterior Emulsion", "Damp-Proof Sealant", "Primer & Acrylic Putty"]
   }
 ];
